@@ -1,0 +1,4 @@
+1) Learn more HTML from W3Schools
+2) Create a registration page fro the project with all the required fileds and the conditions.
+3) Create a Contact Us page with details of user
+Name,Phone,Email,Address(Address should be text with multiple lines)
