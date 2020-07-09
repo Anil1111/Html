@@ -1,0 +1,18 @@
+body{
+
+<body style="background-colr: yellow;">
+}
+
+
+div{
+
+background-color: red;
+height:300px;
+width:300px;
+border-width:4px 5px 7px 2px;
+border-style:double dashed solid dotted;
+border-color:blue black ;
+
+/*border: black 4px solid;  complex value..*/
+
+}

@@ -1,0 +1,89 @@
+<html>
+
+<head>
+
+<link href="style1.css" rel="stylesheet"/>
+
+<style>
+#d1{
+
+position:absolute;
+left:550px;
+top:150px;
+}
+
+button{
+border-radius:5px;
+}
+
+.vanakkam{
+background-color:blue;
+color:white;
+}
+
+#frmUser{
+position:absolute;
+left:550px;
+top:460px;
+padding-left:85px;
+}
+@keyframes myAnimation{
+
+/*from {
+left:10px:
+top:400px;}
+
+to
+from {
+left:100px:
+top:500px;}
+}*/
+
+10%{left:10px;top:400px;background-color:blue;}
+30%{left:20px;top:450px;background-color:green;}
+50%{left:40px;top:400px;background-color:red;}
+70%{left:60px;top:450px;background-color:black;}
+100%{left:80px;top:400px;background-color:white;}
+
+}
+#divAnimation{
+position:absolute;
+left:10px;
+top:400px;
+border-radius:45px;
+background-color:yellow;
+border:red 4px solid;
+height:100px;
+width:100px;
+text-align:center;
+display:inline-block;
+animation-name:myAnimation;
+animation-duration:5s;
+}
+
+</style>
+</head>
+<body>
+<body style="background-color: pink;">
+
+<div id ="d1">
+<p style ="background-color:yellow">Hello all....</p>
+</div>
+
+<div id ="d2">
+<p>Hello people out there</p>
+<span id ="errorName" class= "vanakkam">Some error</span
+</div>
+
+<div id="divAnimation">
+		Div1
+	</div>
+<form id ="frmUser">
+<button> Submit </button>
+<button class ="vanakkam"> Reset </button>
+</form>
+</body>
+
+
+
+</html>
