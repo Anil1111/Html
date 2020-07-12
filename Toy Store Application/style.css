@@ -1,0 +1,38 @@
+
+body  {
+  background-image: url("minion.jpg");
+  height:400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#content{
+font-family:Script;
+color:black;
+font-size:30px;
+font-style:italic;
+height:150px;
+center:1000px;
+
+}
+
+.center h1{
+color:#000000;
+font-size:45px;
+
+font-style:italic;
+width:900px;
+}
+
+.center h2{
+color:#000000;
+font-size:45px;
+
+font-style:italic;
+width:900px;
+}
+
+
+

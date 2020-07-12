@@ -1,0 +1,15 @@
+body  {
+  background-image: url("minc.jpg");
+  height:400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#frmUser{
+position:relative;
+center:550px;
+bottom:460px;
+padding-left:85px;
+}
