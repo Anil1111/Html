@@ -1,0 +1,181 @@
+<html>
+<head>
+ 
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous">
+  </script>
+<script>
+$(document).ready(function()
+{
+$("#dbtndo").click(function()
+{
+$("#d1").slideUp(500);
+});
+$("#dbtnundo").click(function()
+{
+$("#d1").slideDown(500);
+});
+}
+);
+
+$(document).ready(function()
+{
+$("#d1btndo").click(function()
+{
+$("#d2").slideUp(500);
+});
+$("#d1btnundo").click(function()
+{
+$("#d2").slideDown(500);
+});
+}
+);
+
+$(document).ready(function()
+{
+$("#d2btndo").click(function()
+{
+$("#d3").slideUp(500);
+});
+$("#d2btnundo").click(function()
+{
+$("#d3").slideDown(500);
+});
+}
+);
+
+
+</script>  
+  <style>
+div{
+
+height:500px;
+width:500px;
+}
+#d1{
+background-color:lightblue;
+}
+#d2{
+background-color:yellow;
+}
+#d3{
+background-color:pink;
+}
+
+</style>
+</head>
+<body >
+ <button id="dbtndo">Hide Personal data<button><br/>
+<button id="dbtnundo">Show Personal data<button>
+ <button id="d1btndo">Hide Employee data<button><br/>
+<button id="d1btnundo">Show Employee data<button><br/>
+<button id="d2btndo">Hide Salary data<button><br/>
+<button id="d2btnundo">Show Salary data<button><br/>
+
+
+    <div id="d1" >
+<h1> PERSONAL DATA</h1>
+      <form action="#">
+        <label for="fname">First Name</label>
+		</br>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+		</br></br>
+        <label for="lname">Last Name</label>
+		</br>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+		</br></br>
+		 <label for="dob">Date of birth</label>
+		</br>
+        <input type="date" id="dob" name="dateofbirth">
+		</br></br>
+		<label for="mId">E-mail ID</label>
+		</br>
+        <input type="email" id="mId" name="emailID">
+		</br></br>
+		 <label for="addr">Address(Permanent address)</label>
+		</br>
+        <textarea id="addr" name="address" placeholder="Your Address.." style="height:90px"></textarea>
+		</br></br>
+		<label for="state">State</label></br>
+        <select id="state" name="state">
+          <option value="tamilnadu">Tamilnadu</option>
+          <option value="karnataka">Karnataka</option>
+          <option value="kerela">Kerela</option>
+        </select></br></br>
+		
+        <label for="city">City</label></br>
+        <select id="city" name="city">
+          <option value="chennai">Chennai</option>
+          <option value="banglore">Banglore</option>
+          <option value="thiruvananthapuram">Thiruvananthapuram</option>
+        </select>
+      </form>  
+
+</div>
+<hr/>
+
+
+ <div id="d2">
+<h1> EMPLOYEMENT DATA</h1>
+      <form action="#">
+	 <strong><label for="empinfo">Employment Nature</label></br></strong> 
+	   <input type="radio" id="salaried" name="employmentnature" value="salaried">
+       <label for="salaried">Salary</label></br>
+	  <input type="radio" id="Self-Employed" name="employmentnature" value="Self-Employed">
+       <label for="Self-Employed">Self-Employed</label></br>
+	   <input type="radio" id="Consultant" name="employmentnature" value="Consultant">
+       <label for="Consultant">Consultant</label></br></br>
+	   <label for="desgn">Designation</label>
+		</br>
+        <input type="text" id="desgn" name="designation" placeholder="Your designation.."></br></br>
+		<label for="desgn">Name of the employer</label>
+		</br>
+        <input type="text" id="emp" name="designation"></br></br>
+		
+	   
+	   <label for="mId">E-mail ID(Office)</label>
+		</br>
+        <input type="email" id="mId" name="emailID">
+		</br></br>
+        
+		 <label for="addr">Address(Office address)</label>
+		</br>
+        <textarea id="addr" name="address" placeholder="Your Address.." style="height:90px"></textarea>
+		</br></br>
+		
+      </form>
+</div>
+<hr/>
+
+    <div id="d3">
+<h1> SALARY DATA</h1>
+      <form action="#">
+	  <label for="mincome">Monthly Income(Rs)</label>
+		</br>
+        <input type="text" id="mincome" name="mincome">
+		</br></br>
+		<label for="aincome">Annual Income(Rs)</label>
+		</br>
+        <input type="text" id="aincome" name="aincome">
+		</br></br>
+		<label for="bname">Bank name</label>
+		</br>
+        <input type="text" id="bname" name="bname">
+		</br></br>
+		<label for="accnum">Account number</label>
+		</br>
+        <input type="text" id="accnum" name="accnum">
+		</br></br>
+        <label for="typacc">Type of account</label>
+		</br>
+        <input type="text" id="typacc" name="typacc">
+		</br></br>
+      </form>
+</div>
+<hr/>
+
+</body>
+
+</html>
