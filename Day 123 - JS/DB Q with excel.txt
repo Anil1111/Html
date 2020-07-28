@@ -1,0 +1,8 @@
+I have attached an Excel Workbook with mail. Your assignment will be as follows
+
+1) Your application should read every row from the file and save every record in the database.
+
+2) Your application has to post menu for querying from the database for all records or using where clause on region or rep or product
+
+3) The menu should also include insertion of new records and updation on existing records.
+

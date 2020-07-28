@@ -1,0 +1,84 @@
+button{
+border-radius:5px;
+}
+
+.vanakkam{
+color:white;
+}
+
+#frmUser{
+position:relative;
+center:550px;
+bottom:460px;
+padding-left:85px;
+}
+@keyframes myAnimation{
+
+
+}
+body {
+  font-family: sans-serif;
+background-color: Light yellow;
+}
+
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 4px;
+  margin-bottom: 14px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 3px;
+  background-color: #f2f2f2;
+  padding: 6px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+body{
+	background-image: url(pic.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: sans-serif;
+}

@@ -1,0 +1,7 @@
+1) Quiz on topics Class, Object, Static, Instance, Inheritance
+
+2) Create a HTML Page which will highlight the textbox which are empty and not empty by changing the border color.(Empty - Red, Not Empty -Green)
+Name
+Age
+Phone
+Email

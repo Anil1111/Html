@@ -1,0 +1,141 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="style.css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href = ".\bootstrap-4.5.0-dist\css\bootstrap.css"/> 
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+<script  src="script2.js"></script>
+	<script>
+			//alert("Hello World");
+		function btnClick(){
+			//JSON
+			var userData={
+					Name:"",
+					Date Of Birth:"",
+					Aadhar Card number:"",
+					Travel Date:"",
+					Mode of Transport:"",
+					Number of Passengers:""
+			}
+			var Name = document.getElementById("txtName").value;
+			if(Name=="")
+				{
+					alert("Name cannot be empty");
+					document.getElementById("txtName").focus();
+				}
+			else
+				userData.name = document.getElementById("txtName").value
+			
+			var Date Of Birth = document.getElementById("txtDOB").value;
+				if(Date Of Birth=="")
+				{
+					alert("DOB cannot be empty");
+					document.getElementById("txtDOB").focus();
+				}
+			else
+				userData.name = document.getElementById("txtDOB").value
+
+			var Aadhar Card number = document.getElementById("txtACN").value;
+			if(Aadhar Card number=="")
+				{
+					alert("Aadhar Card number cannot be empty");
+					document.getElementById("txtACN").focus();
+				}
+			else
+				userData.name = document.getElementById("txtACN").value
+
+			var Travel Date = document.getElementById("txtTD").value;
+			if(Travel Date=="")
+				{
+					alert("Travel Date cannot be empty");
+					document.getElementById("txtTD").focus();
+				}
+			else
+				userData.name = document.getElementById("txtTD").value
+		   
+			
+		  console.log(userData);
+		  alert("Done");
+		}
+		
+	</script>
+	
+</head>
+  <body>
+
+<body background ="pic.jpg">
+<h1>
+<center>
+<font face ="Monotype Corsiva" color= " black" size=" 30">E - PASS DETAILS!!!!</font>
+</center>
+
+</h1>
+<br/>
+   
+</b>
+
+<div class="column">
+
+      <form action="last.html">
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="name" placeholder="Enter name" required autocomplete="off">
+
+        <label for="birth">DOB</label>
+        <input type="date" id="lname" name="birth" placeholder="dd-mm-yyyy"><br>
+
+		 <label for="aadharnumber">Aadhar Card Number</label>
+        <input type="text" id="aadharNumber" name="aadharnumber" placeholder="Enter your Aadhar number" required autocomplete="off">
+		<label for="cpass">Travel Date</label>
+        <input type="text" id="tdate" name="traveldate" placeholder="Enter travel date">
+	<p>Type of Travel</p>	
+       <input type="radio" name="gender" checked>Inter State<input type="radio" name="gender">Outer State</input type><br/>
+
+ <label for="mode">Mode of Travel</label>
+  <select name="cars" id="cars">
+    <option value="bike">Bike</option>
+    <option value="car">Car</option>
+    <option value="van">Van</option>
+    <option value="bus">Bus</option>
+  </select>        
+       <label for="noofpass">Number of Passengers</label><br>
+       <input id="noofpass">
+
+<button type="button" onclick="myFunction()">Check</button><br><br>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x, text;
+
+  // Get the value of the input field with id="numb"
+  x = document.getElementById("noofpass").value;
+
+  // If x is Not a Number or less than one or greater than 10
+  if (isNaN(x) || x < 1 || x > 10) {
+    text = "Not Permitted";
+  } else {
+    text = "Permit OK";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+
+</div>
+	 
+  </body>
+</html>

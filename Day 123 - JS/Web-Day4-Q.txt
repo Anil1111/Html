@@ -1,0 +1,9 @@
+1) Learn Bootstrap 
+2) Please style your application's page using BootStrap
+3) Create your profile page with bootstrap so that you create a professional page. 
+4) Create a simple toystore application(with HTML,CSS,BootStrap and JavaScript) 
+Home
+Products - with images, Price and Description
+ContactUs - With forms
+
+

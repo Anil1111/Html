@@ -1,0 +1,9 @@
+1) Yesterday's Questions+ Polymorphism - static and dynamic
+
+2) Create a page which will take user data for a loan application. Parts of the page should be shown only when needed
+Part 1 - Baisc Info
+Part 2 - Employement Info
+Part 3 - Salary Info
+
+Ensure proper validation is done.
+Learn more jQuery

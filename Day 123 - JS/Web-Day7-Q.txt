@@ -1,0 +1,8 @@
+1) Abstract Class+Interface+Threading
+
+2) Learn for Eval (HTML+CSS+Javascript+jQuery)
+
+3) Do the ToyStore pages- Dynamic+Responsive+UserFriendly
+
+Home Page done in session
+
